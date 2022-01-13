@@ -1,0 +1,21 @@
+[{
+  "_id": {
+    "$oid": "61683ba3064cd628fcd85320"
+  },
+  "name": "Forward"
+},{
+  "_id": {
+    "$oid": "61683ba3064cd628fcd85321"
+  },
+  "name": "Defender"
+},{
+  "_id": {
+    "$oid": "61683ba3064cd628fcd85322"
+  },
+  "name": "Midfielder"
+},{
+  "_id": {
+    "$oid": "6192627d475c39365d958a0f"
+  },
+  "name": "Goalkeeper"
+}]

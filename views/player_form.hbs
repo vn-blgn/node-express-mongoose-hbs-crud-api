@@ -1,0 +1,72 @@
+<div class='container-fluid'>
+
+    <div class='row'>
+
+        <div class='col-sm-3'>
+            
+            {{>sidebar}}
+
+        </div>
+
+        <div class='col-sm-6'>
+
+          <h1>{{title}}</h1>
+
+          <form action="" method="POST">
+
+                <div class="form-group vertical-space">
+                    <label for="first_name">First name:</label>
+                    <input class="form-control" id="first_name" type="text" placeholder="First name" name="first_name" required='true'><br>
+                </div>
+
+                <div class="form-group vertical-space">
+                    <label for="last_name">Last name:</label>
+                    <input class="form-control" id="last_name" type="text" placeholder="Last name" name="last_name" required='true'><br>
+                </div>
+
+                <div class="form-group vertical-space">
+                    <label for="football_club">Football club:</label>
+                    <select class="form-control" id="football_club" type="select" placeholder="Select football club" name="football_club" required='true'>
+                        {{#each clubs}}
+                                <option value={{thisId}}>{{thisName}}</option>
+                        {{/each}}
+                    </select><br>
+                </div>
+
+                <div class="form-group vertical-space">
+                    <label for="position">Position:</label>
+                    <select class="form-control" id="position" type="select" placeholder="Select position" name="position" required='true'>
+                        {{#each positions}}
+                                <option value={{thisId}}>{{thisName}}</option>
+                        {{/each}}
+                    </select><br>
+                </div>
+
+                <div class="form-group vertical-space">
+                    <label for="country">Country:</label>
+                    <select class="form-control" id="country" type="select" placeholder="Select country" name="country" required='true'>
+                        {{#each countries}}
+                                <option value={{thisId}}>{{thisName}}</option>
+                        {{/each}}
+                    </select><br>
+                </div>
+
+                <div class="form-group vertical-space">
+                    <label for="birth_year">Birth year:</label>
+                    <input class="form-control" id="birth_year" type="text" placeholder="Birth year" name="birth_year" required='true'><br>
+                </div>
+
+                <button class="btn btn-info btn-sm" type="submit">Submit</button>
+
+            </form>
+
+        </div>
+
+        <div class='col-sm-3'>
+            
+
+        </div>
+
+    </div>
+
+</div>

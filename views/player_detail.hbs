@@ -1,0 +1,32 @@
+<div class='container-fluid'>
+
+    <div class='row'>
+
+        <div class='col-sm-3'>
+            
+            {{>sidebar}}
+
+        </div>
+
+        <div class='col-sm-6'>
+
+          <h1>{{title}}</h1>
+          
+          <ul class="ln-hght">
+              <li>Football club: <a href={{club_detail_url}}>{{club}}</a></li>
+              <li>Position: <a href={{position_detail_url}}>{{position}}</a></li>
+              <li>Birth year: {{birthYear}}</li>
+              <li>Country: <a href={{country_detail_url}}>{{country}}</a></li>
+          </ul>
+
+        </div>
+
+        <div class='col-sm-3'>
+
+            {{>options}}
+
+        </div>
+
+    </div>
+
+</div>

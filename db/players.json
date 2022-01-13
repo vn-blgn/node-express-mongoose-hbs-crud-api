@@ -1,0 +1,385 @@
+[{
+    "_id": {
+        "$oid": "6155eb5ee7ce950f88ee4fcf"
+    },
+    "firstName": "Cristiano",
+    "secondtName": "Ronaldo",
+    "footballClub": {
+        "$oid": "6155830de7ce950f88ee4f5b"
+    },
+    "position": {
+        "$oid": "61683ba3064cd628fcd85320"
+    },
+    "country": {
+        "$oid": "6155e6f3e7ce950f88ee4fc2"
+    },
+    "birthYear": 1985
+}, {
+    "_id": {
+        "$oid": "6155eb5ee7ce950f88ee4fd0"
+    },
+    "firstName": "Raphael",
+    "secondtName": "Varane",
+    "footballClub": {
+        "$oid": "6155830de7ce950f88ee4f5b"
+    },
+    "position": {
+        "$oid": "61683ba3064cd628fcd85321"
+    },
+    "country": {
+        "$oid": "6155e6f3e7ce950f88ee4fcd"
+    },
+    "birthYear": 1993
+}, {
+    "_id": {
+        "$oid": "6155eb5ee7ce950f88ee4fd1"
+    },
+    "firstName": "Jesse",
+    "secondtName": "Lingard",
+    "footballClub": {
+        "$oid": "6155830de7ce950f88ee4f5b"
+    },
+    "position": {
+        "$oid": "61683ba3064cd628fcd85322"
+    },
+    "country": {
+        "$oid": "6155e6f3e7ce950f88ee4fcc"
+    },
+    "birthYear": 1992
+}, {
+    "_id": {
+        "$oid": "6155eb5ee7ce950f88ee4fd2"
+    },
+    "firstName": "Paul",
+    "secondtName": "Pogba",
+    "footballClub": {
+        "$oid": "6155830de7ce950f88ee4f5b"
+    },
+    "position": {
+        "$oid": "61683ba3064cd628fcd85322"
+    },
+    "country": {
+        "$oid": "6155e6f3e7ce950f88ee4fcd"
+    },
+    "birthYear": 1993
+}, {
+    "_id": {
+        "$oid": "6155eb5ee7ce950f88ee4fd3"
+    },
+    "firstName": "Edinson",
+    "secondtName": "Cavani",
+    "footballClub": {
+        "$oid": "6155830de7ce950f88ee4f5b"
+    },
+    "position": {
+        "$oid": "61683ba3064cd628fcd85320"
+    },
+    "country": {
+        "$oid": "6155e6f3e7ce950f88ee4fc3"
+    },
+    "birthYear": 1987
+}, {
+    "_id": {
+        "$oid": "6155eb5ee7ce950f88ee4fd4"
+    },
+    "firstName": "Hakim",
+    "secondtName": "Ziyech",
+    "footballClub": {
+        "$oid": "6155830de7ce950f88ee4f5c"
+    },
+    "position": {
+        "$oid": "61683ba3064cd628fcd85322"
+    },
+    "country": {
+        "$oid": "6155e6f3e7ce950f88ee4fc4"
+    },
+    "birthYear": 1993
+}, {
+    "_id": {
+        "$oid": "6155eb5ee7ce950f88ee4fd5"
+    },
+    "firstName": "Romelu",
+    "secondtName": "Lukaku",
+    "footballClub": {
+        "$oid": "6155830de7ce950f88ee4f5c"
+    },
+    "position": {
+        "$oid": "61683ba3064cd628fcd85320"
+    },
+    "country": {
+        "$oid": "6155e6f3e7ce950f88ee4fc9"
+    },
+    "birthYear": 1993
+}, {
+    "_id": {
+        "$oid": "6155eb5ee7ce950f88ee4fd6"
+    },
+    "firstName": "Mateo",
+    "secondtName": "Kovacic",
+    "footballClub": {
+        "$oid": "6155830de7ce950f88ee4f5c"
+    },
+    "position": {
+        "$oid": "61683ba3064cd628fcd85322"
+    },
+    "country": {
+        "$oid": "6155e6f3e7ce950f88ee4fc5"
+    },
+    "birthYear": 1994
+}, {
+    "_id": {
+        "$oid": "6155eb5ee7ce950f88ee4fd7"
+    },
+    "firstName": "Roberto",
+    "secondtName": "Firmino",
+    "footballClub": {
+        "$oid": "6155830de7ce950f88ee4f5d"
+    },
+    "position": {
+        "$oid": "61683ba3064cd628fcd85320"
+    },
+    "country": {
+        "$oid": "6155e6f3e7ce950f88ee4fca"
+    },
+    "birthYear": 1991
+}, {
+    "_id": {
+        "$oid": "6155eb5ee7ce950f88ee4fd8"
+    },
+    "firstName": "Mohamed",
+    "secondtName": "Salah",
+    "footballClub": {
+        "$oid": "6155830de7ce950f88ee4f5d"
+    },
+    "position": {
+        "$oid": "61683ba3064cd628fcd85320"
+    },
+    "country": {
+        "$oid": "6155e6f3e7ce950f88ee4fc6"
+    },
+    "birthYear": 1992
+}, {
+    "_id": {
+        "$oid": "6155eb5ee7ce950f88ee4fd9"
+    },
+    "firstName": "Sadio",
+    "secondtName": "Mane",
+    "footballClub": {
+        "$oid": "6155830de7ce950f88ee4f5d"
+    },
+    "position": {
+        "$oid": "61683ba3064cd628fcd85320"
+    },
+    "country": {
+        "$oid": "6155e6f3e7ce950f88ee4fc7"
+    },
+    "birthYear": 1992
+}, {
+    "_id": {
+        "$oid": "6155eb5ee7ce950f88ee4fda"
+    },
+    "firstName": "Virgil",
+    "secondtName": "van Dijk",
+    "footballClub": {
+        "$oid": "6155830de7ce950f88ee4f5d"
+    },
+    "position": {
+        "$oid": "61683ba3064cd628fcd85321"
+    },
+    "country": {
+        "$oid": "6155e6f3e7ce950f88ee4fc8"
+    },
+    "birthYear": 1991
+}, {
+    "_id": {
+        "$oid": "6155eb5ee7ce950f88ee4fdb"
+    },
+    "firstName": "Kyle",
+    "secondtName": "Walker",
+    "footballClub": {
+        "$oid": "6155830de7ce950f88ee4f5e"
+    },
+    "position": {
+        "$oid": "61683ba3064cd628fcd85321"
+    },
+    "country": {
+        "$oid": "6155e6f3e7ce950f88ee4fcc"
+    },
+    "birthYear": 1990
+}, {
+    "_id": {
+        "$oid": "6155eb5ee7ce950f88ee4fdc"
+    },
+    "firstName": "Kevin",
+    "secondtName": "De Bruyne",
+    "footballClub": {
+        "$oid": "6155830de7ce950f88ee4f5e"
+    },
+    "position": {
+        "$oid": "61683ba3064cd628fcd85322"
+    },
+    "country": {
+        "$oid": "6155e6f3e7ce950f88ee4fc9"
+    },
+    "birthYear": 1991
+}, {
+    "_id": {
+        "$oid": "6155eb5ee7ce950f88ee4fdd"
+    },
+    "firstName": "Bernardo",
+    "secondtName": "Silva",
+    "footballClub": {
+        "$oid": "6155830de7ce950f88ee4f5e"
+    },
+    "position": {
+        "$oid": "61683ba3064cd628fcd85322"
+    },
+    "country": {
+        "$oid": "6155e6f3e7ce950f88ee4fc2"
+    },
+    "birthYear": 1994
+}, {
+    "_id": {
+        "$oid": "6155eb5ee7ce950f88ee4fde"
+    },
+    "firstName": "Gabriel",
+    "secondtName": "Jesus",
+    "footballClub": {
+        "$oid": "6155830de7ce950f88ee4f5e"
+    },
+    "position": {
+        "$oid": "61683ba3064cd628fcd85320"
+    },
+    "country": {
+        "$oid": "6155e6f3e7ce950f88ee4fca"
+    },
+    "birthYear": 1997
+}, {
+    "_id": {
+        "$oid": "6155eb5ee7ce950f88ee4fdf"
+    },
+    "firstName": "Raheem",
+    "secondtName": "Sterling",
+    "footballClub": {
+        "$oid": "6155830de7ce950f88ee4f5e"
+    },
+    "position": {
+        "$oid": "61683ba3064cd628fcd85320"
+    },
+    "country": {
+        "$oid": "6155e6f3e7ce950f88ee4fcc"
+    },
+    "birthYear": 1994
+}, {
+    "_id": {
+        "$oid": "6155eb5ee7ce950f88ee4fe0"
+    },
+    "firstName": "Dele",
+    "secondtName": "Alli",
+    "footballClub": {
+        "$oid": "6155830de7ce950f88ee4f5f"
+    },
+    "position": {
+        "$oid": "61683ba3064cd628fcd85322"
+    },
+    "country": {
+        "$oid": "6155e6f3e7ce950f88ee4fcc"
+    },
+    "birthYear": 1996
+}, {
+    "_id": {
+        "$oid": "6155eb5ee7ce950f88ee4fe1"
+    },
+    "firstName": "Harry",
+    "secondtName": "Kane",
+    "footballClub": {
+        "$oid": "6155830de7ce950f88ee4f5f"
+    },
+    "position": {
+        "$oid": "61683ba3064cd628fcd85320"
+    },
+    "country": {
+        "$oid": "6155e6f3e7ce950f88ee4fcc"
+    },
+    "birthYear": 1993
+}, {
+    "_id": {
+        "$oid": "6155eb5ee7ce950f88ee4fe2"
+    },
+    "firstName": "Son",
+    "secondtName": "Heung-Min",
+    "footballClub": {
+        "$oid": "6155830de7ce950f88ee4f5f"
+    },
+    "position": {
+        "$oid": "61683ba3064cd628fcd85320"
+    },
+    "country": {
+        "$oid": "6155e6f3e7ce950f88ee4fcb"
+    },
+    "birthYear": 1992
+}, {
+    "_id": {
+        "$oid": "6155eb5ee7ce950f88ee4fe3"
+    },
+    "firstName": "Ricardo",
+    "secondtName": "Pereira",
+    "footballClub": {
+        "$oid": "6155830de7ce950f88ee4f60"
+    },
+    "position": {
+        "$oid": "61683ba3064cd628fcd85321"
+    },
+    "country": {
+        "$oid": "6155e6f3e7ce950f88ee4fc2"
+    },
+    "birthYear": 1993
+}, {
+    "_id": {
+        "$oid": "6155eb5ee7ce950f88ee4fe4"
+    },
+    "firstName": "Jamie",
+    "secondtName": "Vardy",
+    "footballClub": {
+        "$oid": "6155830de7ce950f88ee4f60"
+    },
+    "position": {
+        "$oid": "61683ba3064cd628fcd85320"
+    },
+    "country": {
+        "$oid": "6155e6f3e7ce950f88ee4fcc"
+    },
+    "birthYear": 1987
+}, {
+    "_id": {
+        "$oid": "6155eb5ee7ce950f88ee4fe5"
+    },
+    "firstName": "Alexandre",
+    "secondtName": "Lacazette",
+    "footballClub": {
+        "$oid": "6155830de7ce950f88ee4f61"
+    },
+    "position": {
+        "$oid": "61683ba3064cd628fcd85320"
+    },
+    "country": {
+        "$oid": "6155e6f3e7ce950f88ee4fcd"
+    },
+    "birthYear": 1991
+}, {
+    "_id": {
+        "$oid": "6155eb5ee7ce950f88ee4fe6"
+    },
+    "firstName": "Pierre",
+    "secondtName": "Aubameyang",
+    "footballClub": {
+        "$oid": "6155830de7ce950f88ee4f61"
+    },
+    "position": {
+        "$oid": "61683ba3064cd628fcd85320"
+    },
+    "country": {
+        "$oid": "6155e6f3e7ce950f88ee4fce"
+    },
+    "birthYear": 1989
+}]

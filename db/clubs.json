@@ -1,0 +1,36 @@
+[{
+    "_id": {
+        "$oid": "6155830de7ce950f88ee4f5b"
+    },
+    "name": "FC Manchester Utd"
+}, {
+    "_id": {
+        "$oid": "6155830de7ce950f88ee4f5c"
+    },
+    "name": "FC Chelsea"
+}, {
+    "_id": {
+        "$oid": "6155830de7ce950f88ee4f5d"
+    },
+    "name": "FC Liverpool"
+}, {
+    "_id": {
+        "$oid": "6155830de7ce950f88ee4f5e"
+    },
+    "name": "FC Manchester City"
+}, {
+    "_id": {
+        "$oid": "6155830de7ce950f88ee4f5f"
+    },
+    "name": "FC Tottenham Hotspur"
+}, {
+    "_id": {
+        "$oid": "6155830de7ce950f88ee4f60"
+    },
+    "name": "FC Leicester City"
+}, {
+    "_id": {
+        "$oid": "6155830de7ce950f88ee4f61"
+    },
+    "name": "FC Arsenal"
+}]

@@ -1,0 +1,66 @@
+[{
+    "_id": {
+        "$oid": "6155e6f3e7ce950f88ee4fc2"
+    },
+    "name": "Portugal"
+}, {
+    "_id": {
+        "$oid": "6155e6f3e7ce950f88ee4fc3"
+    },
+    "name": "Uruguay"
+}, {
+    "_id": {
+        "$oid": "6155e6f3e7ce950f88ee4fc4"
+    },
+    "name": "Morocco"
+}, {
+    "_id": {
+        "$oid": "6155e6f3e7ce950f88ee4fc5"
+    },
+    "name": "Croatia"
+}, {
+    "_id": {
+        "$oid": "6155e6f3e7ce950f88ee4fc6"
+    },
+    "name": "Egypt"
+}, {
+    "_id": {
+        "$oid": "6155e6f3e7ce950f88ee4fc7"
+    },
+    "name": "Senegal"
+}, {
+    "_id": {
+        "$oid": "6155e6f3e7ce950f88ee4fc8"
+    },
+    "name": "Netherlands"
+}, {
+    "_id": {
+        "$oid": "6155e6f3e7ce950f88ee4fc9"
+    },
+    "name": "Belgium"
+}, {
+    "_id": {
+        "$oid": "6155e6f3e7ce950f88ee4fca"
+    },
+    "name": "Brazil"
+}, {
+    "_id": {
+        "$oid": "6155e6f3e7ce950f88ee4fcb"
+    },
+    "name": "South Korea"
+}, {
+    "_id": {
+        "$oid": "6155e6f3e7ce950f88ee4fcc"
+    },
+    "name": "United Kingdom"
+}, {
+    "_id": {
+        "$oid": "6155e6f3e7ce950f88ee4fcd"
+    },
+    "name": "France"
+}, {
+    "_id": {
+        "$oid": "6155e6f3e7ce950f88ee4fce"
+    },
+    "name": "Gabon"
+}]

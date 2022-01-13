@@ -1,0 +1,27 @@
+<div class='container-fluid'>
+
+    <div class='row'>
+
+        <div class='col-sm-3'>
+            
+            {{>sidebar}}
+
+        </div>
+
+        <div class='col-sm-9'>
+
+          <h1>{{title}}</h1>
+
+          <ul>
+              {{#each clubs}}
+              <li><a href={{thisUrl}}>{{thisName}}</a></li>
+              {{else}}
+              <li>There are no clubs.</li>
+              {{/each}}
+          </ul>
+
+        </div>
+
+    </div>
+
+</div>
