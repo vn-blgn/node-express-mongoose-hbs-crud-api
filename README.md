@@ -1,5 +1,7 @@
 # Nodejs (Express), MongoDB (Mongoose), Handlebars (Express Handlebars) CRUD Web Application.
 
+![screenshot](https://github.com/vn-blgn/node-express-mongoose-hbs-crud-api/blob/master/public/images/screenshot.PNG)
+
 This is a multi page application based on Express, Mongoose and Handlebars. The application also uses
 express-generator, to quickly create an application skeleton and MVC pattern (Model–View–Controller).
 It has a db files which will be used in the database. Please upload them to your database.
