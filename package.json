@@ -8,7 +8,6 @@
         "nod": "nodemon ./bin/www"
     },
     "dependencies": {
-        "async": "^3.2.1",
         "cookie-parser": "~1.4.4",
         "debug": "~2.6.9",
         "dotenv": "^11.0.0",
@@ -16,8 +15,7 @@
         "express-handlebars": "^5.3.4",
         "http-errors": "~1.6.3",
         "mongoose": "^6.0.9",
-        "morgan": "~1.9.1",
-        "node-fetch": "^2.6.5"
+        "morgan": "~1.9.1"
     },
     "devDependencies": {
         "nodemon": "^2.0.13",
