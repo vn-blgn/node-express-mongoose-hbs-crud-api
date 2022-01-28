@@ -1,16 +1,16 @@
-const Player = require('../models/player');
 const Club = require('../models/club');
-const Country = require('../models/country');
-const Position = require('../models/position');
 
-const async = require("async");
+const showError = require('../lib/errors').showError;
 
-exports.test = function(req, res) {
-    Club.find({}, function(err, clubs) {
-        if (err) return console.log(err);
+exports.test = async(req, res) => {
+    try {
+        const clubs = await Club.find({});
         res.render("test_page.hbs", {
             title: "Test",
             clubs: clubs
         });
-    });
+    } catch (error) {
+        showError(error);
+        res.render("error.hbs");
+    };
 };

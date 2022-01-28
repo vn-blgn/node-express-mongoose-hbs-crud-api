@@ -3,27 +3,22 @@ const Club = require('../models/club');
 const Country = require('../models/country');
 const Position = require('../models/position');
 
-const async = require("async");
+const showError = require('../lib/errors').showError;
 
-exports.index = function(req, res) {
-    async.parallel({
-        player_count: function(callback) {
-            Player.countDocuments({}, callback);
-        },
-        club_count: function(callback) {
-            Club.countDocuments({}, callback);
-        },
-        country_count: function(callback) {
-            Country.countDocuments({}, callback);
-        },
-        position_count: function(callback) {
-            Position.countDocuments({}, callback);
-        }
-    }, function(err, results) {
+exports.index = async(req, res) => {
+    try {
+        let results = {
+            player_count: await Player.countDocuments({}).lean(),
+            club_count: await Club.countDocuments({}).lean(),
+            country_count: await Country.countDocuments({}).lean(),
+            position_count: await Position.countDocuments({}).lean()
+        };
         res.render('index.hbs', {
             title: 'The soccer players database',
-            error: err,
             results: results
         });
-    });
+    } catch (error) {
+        showError(error);
+        res.render("error.hbs");
+    };
 };

@@ -1,49 +1,57 @@
 const Country = require('../models/country');
 const Player = require('../models/player');
 
-const async = require("async");
+const showError = require('../lib/errors').showError;
 
-exports.countries = function(req, res) {
-    Country.find({}, function(err, countries) {
-        if (err) return console.log(err);
+exports.countries = async(req, res) => {
+    try {
+        const countries = await Country.find({});
         res.render("countries.hbs", {
             title: "Countries",
             countries: countries,
         });
-    });
+    } catch (error) {
+        showError(error);
+        res.render("error.hbs");
+    };
 };
 
-exports.country_detail = function(req, res, next) {
-    async.parallel({
-        country: function(callback) {
-            Country.findById(req.params.id)
-                .exec(callback)
-        },
-        country_players: function(callback) {
-            Player.find({ 'country': req.params.id })
-                .exec(callback)
-        },
-    }, function(err, results) {
-        if (err) { return next(err) };
+exports.country_detail = async(req, res) => {
+    try {
+        let results = {
+            country: await Country.findById(req.params.id),
+            country_players: await Player.find({ 'country': req.params.id })
+        };
         res.render('country_detail.hbs', {
             title: results.country.name,
             players: results.country_players
         });
-    });
+    } catch (error) {
+        showError(error);
+        res.render("error.hbs");
+    };
 };
 
-exports.country_create_get = function(req, res) {
-    res.render("country_form.hbs", {
-        title: "Add a country",
-    });
+exports.country_create_get = async(req, res) => {
+    try {
+        res.render("country_form.hbs", {
+            title: "Add a country",
+        });
+    } catch (error) {
+        showError(error);
+        res.render("error.hbs");
+    };
 };
 
-exports.country_create_post = function(req, res) {
-    const country = new Country({
-        name: req.body.country_name,
-    });
-    country.save(function(err) {
-        if (err) { return err };
+exports.country_create_post = async(req, res) => {
+    try {
+        const country = new Country({
+            name: req.body.country_name,
+        });
+        await country.save();
         res.redirect(country.url);
-    });
+    } catch (error) {
+        showError(error);
+        res.render("error.hbs");
+    };
 };
